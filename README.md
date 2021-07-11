@@ -8,7 +8,10 @@ This shared wallet can be used in the following examples of real world use cases
 - Business gives other business budget for expenses
 
 ## Wallet Functionality
+The following figure describes the shared wallet functionality.
+![Shared Wallet Functionality](https://github.com/EWCunha/Shared-Wallet/blob/main/Shared%20Wallet%20Functionalities.png)
 
+Giving more details, anyone is able to make deposits in this shared wallet. Regarding withdrawals, the onwer can withdraw an unlimited amount, i. e. he can withdraw from all the other members' allowances. On the other hand, the non-owner members maximum withdrawal amount is the balance of their respective allowance. Furthermore, only the owner can change the allowances of each member.
 
 ## Code Challenges
 - Deposit funds with fallback function (receive)
@@ -16,3 +19,10 @@ This shared wallet can be used in the following examples of real world use cases
 - Permissions using modifier
 
 ## What I Learned
+- Use fallback functions (receive).
+- Properly code a withdrawal function.
+- Give specific permissions with modifiers.
+- Import my own and third parties (OpenZeppelin) Smart Contracts.
+- Integrate different Smart Contracts with the `is` keyword.
+- Properly write events and emit them.
+- Override existing functions from a third party Smart Contract.
