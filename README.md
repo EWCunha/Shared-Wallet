@@ -1,8 +1,18 @@
 # Shared Wallet
-Here you will find some projects that I have worked on.
+I this project, I coded a shared wallet via Smart Contracts on Remix. There are two Smart Contracts that run the shared wallet logics. The first called "SharedWallet" is where the functions for receiveing and withdrawing ether are written. Another called "Allowance" is where the functions of how the allowances are distributed for each shared wallet member are written. The "Ownable" Smart Contract from OpenZeppelin was also implemented, since it is an already audited Smart Contract for ownership management. The two Smart Contracts were separated in two files and, then, properly integrated.
 
-I am looking for a career change to **blockchain** or **software development**. Hence my recent interest in developing projects in those areas.
+## Real World Use Cases
+This shared wallet can be used in the following examples of real world use cases:
+- Children getting allowance per day/week/month
+- Employer gives employee allowance for travel
+- Business gives other business budget for expenses
 
-My projects are divided in several areas, as follows.
+## Wallet Functionality
 
-## Blockchain
+
+## Code Challenges
+- Deposit funds with fallback function (receive)
+- Withdrawal function
+- Permissions using modifier
+
+## What I Learned
